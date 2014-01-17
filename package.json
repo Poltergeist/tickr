@@ -1,6 +1,6 @@
 {
   "name": "tickr",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "tickr is a module to handle ticks.",
   "main": "index.js",
   "scripts": {
