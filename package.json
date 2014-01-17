@@ -9,6 +9,10 @@
   },
   "author": "Poltergeist",
   "license": "WTFPL",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Poltergeist/tickr"
+  },
   "devDependencies": {
     "jasmine-node": "~1.12.0"
   },
