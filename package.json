@@ -4,7 +4,8 @@
   "description": "tickr is a module to handle ticks.",
   "main": "index.js",
   "scripts": {
-    "test": "jasmine-node spec/"
+    "test": "jasmine-node spec/",
+    "start": "jasmine-node spec/ --autotest --growl --watch ./"
   },
   "author": "Poltergeist",
   "license": "WTFPL",
@@ -12,6 +13,7 @@
     "jasmine-node": "~1.12.0"
   },
   "dependencies": {
-    "fishbone": "~1.0.1"
+    "fishbone": "~1.0.1",
+    "lodash": "~2.4.1"
   }
 }

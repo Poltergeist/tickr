@@ -1,14 +1,13 @@
 var Model = require('fishbone'),
+  _ = require('lodash'),
 
 Tickr = new Model({
-  options: {
-    version: '0.0.0'
+  _defaultOptions: {
+    tick: 5 * 60 * 1000
   },
   init: function(start, options) {
     this.startTime = new Date(start) || new Date();
-    if (options) {
-      this.options.tick = options.tick || 5 * 60 * 1000;
-    }
+    this.options = _.merge(this._defaultOptions, options);
   },
   getCurrentTime: function() {
     return new Date();
