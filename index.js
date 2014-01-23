@@ -16,13 +16,13 @@ Tickr = new Model({
     return this.startTime;
   },
   getTick: function(tick) {
-    tick = tick || 0;
+    tick = tick || 0;
     tick = this.startTime * 1 + (this.options.tick * tick);
     return tick;
   },
   getCurrentTick: function(time) {
     var tick = 0;
-    time = time || new Date();
+    time = time || new Date();
     tick = time * 1 - this.startTime;
     tick = Math.floor(tick / this.options.tick);
     return tick;
