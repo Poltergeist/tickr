@@ -14,7 +14,7 @@
     "url": "https://github.com/Poltergeist/tickr"
   },
   "devDependencies": {
-    "jasmine-node": "~1.12.0",
+    "jasmine-node": "^1.14.5",
     "sinon": "^1.15.3"
   },
   "dependencies": {
